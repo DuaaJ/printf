@@ -39,11 +39,9 @@ struct fmt
  */
 typedef struct fmt fmt_t;
 
-<<<<<<< HEAD
 int _putchar(char c);
 int _puts(char *st);
-=======
->>>>>>> 854c7e92c6dbfc2ddbdf20d61a24cf839522ba79
+
 int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
